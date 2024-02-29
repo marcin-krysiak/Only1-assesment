@@ -70,7 +70,7 @@ Building on top of Task 2, you are to implement the `instructions` function abov
 
 What the function `instructions` does is return `input.instructions`, but:
 
-For all `entry: { id: string, address: keys of Addresses }` entries in `instructions[keyof typeof instructions]["accounts"]`, the value of `address` is to bereplaced with `input.addresses[entry.address]` if `input.addresses[entry.address]` points to a string.
+For all `entry: { id: string, address: keys of Addresses }` entries in `instructions[keyof typeof instructions]["accounts"]`, the value of `address` is to be replaced with `input.addresses[entry.address]` if `input.addresses[entry.address]` points to a string.
 
 If `input.addresses[entry.address]` points to a record of type `{ address: keys of Addresses }`, you are to recursively resolve for the string value of `address`.
 
