@@ -19,3 +19,4 @@ type Addresses = Record<AddressKey, string | { address: AddressKey }>
 * go inside `only1-app` folder 
 * run `npm ci` to install the dependencies.
 * run `npm run dev` to start the app.
+* to see the loading spinner I suggest to use the network throttling in the browser dev tools.
