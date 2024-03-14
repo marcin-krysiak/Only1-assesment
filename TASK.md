@@ -58,7 +58,7 @@ instructions({
 });
 ```
 
-Building on top of Task 2, you are to implement the `instructions` function above. It accepts a single record `input` that contains two keys: `addresses`, and `instructions`.
+Building on top of Task 1, you are to implement the `instructions` function above. It accepts a single record `input` that contains two keys: `addresses`, and `instructions`.
 
 `addresses` is of the same format as `Addresses` in Task 1.
 
