@@ -1,4 +1,4 @@
-import type { Addresses } from './address'
+import { type Addresses } from './types'
 
 export function resolveAddress (addresses: Addresses, address: keyof Addresses): string {
   const addressValue = addresses[address]

@@ -1,4 +1,4 @@
-export type Addresses = Record<string, string | { address: keyof Addresses }>
+import { type Addresses } from './types'
 
 export function addresses (input: Addresses): void {
   // function body here
